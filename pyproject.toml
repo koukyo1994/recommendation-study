@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "recommendation-study"
+version = "0.1.0"
+description = ""
+authors = ["koukyo1994 <arabiannight1994@yahoo.co.jp>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.8.*"
+numpy = "^1.22.4"
+pandas = "^1.4.2"
+scikit-learn = "^1.1.1"
+mlxtend = "^0.20.0"
+surprise = "^0.1"
+implicit = "^0.5.2"
+xlearn = "^0.40a1"
+gensim = "^4.2.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+jupyterlab = "^3.4.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
